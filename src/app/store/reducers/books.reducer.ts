@@ -4,7 +4,7 @@ import {Author} from "../../models/author";
 import {State} from "../state";
 
 export function reducer(state: State, action: BookActions.Actions): State {
-  switch(action.type) {
+  switch (action.type) {
     case BookActions.addBook:
       return {
         ...state,
